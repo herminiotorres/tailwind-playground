@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- centering -->
+  <div class="flex items-center justify-center h-64 bg-green-700">
+    <h2 class="text-4xl text-green-100">Centered!</h2>
+  </div>
+
+  <!-- navigation -->
+  <div class="flex justify-between p-10 bg-gray-300">
+    <div>logo</div>
+    <div>navigation</div>
+  </div>
+  <!-- creating a columns section -->
+  <div class="p-10 space-y-4 bg-yellow-500 md:flex md:space-x-8 md:space-y-0">
+    <div class="flex-shrink p-2 bg-white">hello</div>
+    <div class="flex-grow p-2 bg-white">hello</div>
+    <div class="flex-grow p-2 bg-white">hello</div>
+  </div>
+
+  <!-- sidebar -->
+  <div class="h-64 bg-teal-700">
+    <div class="items-stretch h-full md:flex">
+      <div class="hidden p-10 bg-orange-500 md:block md:w-1/5">sidebar</div>
+      <div class="p-10 bg-teal-500 md:flex-grow">content</div>
+    </div>
+  </div>
+</body>
+
+</html>

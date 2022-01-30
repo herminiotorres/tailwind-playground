@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- card with no image -->
+  <div class="p-20 bg-blue-100">
+    <h3 class="mb-4 text-sm font-bold text-blue-500">1. Card w/ no image</h3>
+
+    <div class="p-6 bg-white rounded-lg shadow-lg">
+      <h2 class="mb-2 text-2xl font-bold text-gray-800">Card with no image</h2>
+      <p class="text-gray-700">This is my cool new card!</p>
+    </div>
+  </div>
+
+  <!-- card with an image -->
+  <div class="p-20 bg-purple-100">
+    <h3 class="mb-4 font-bold text-purple-500">2. Card w/ image</h3>
+
+    <div class="w-full bg-white rounded-lg shadow-lg md:w-1/2">
+      <img
+        src="https://images.unsplash.com/photo-1596787071138-308550420028?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+        alt="Desert" class="rounded-t-lg" />
+
+      <div class="p-6">
+        <h2 class="mb-1 text-2xl font-bold text-purple-800">Card with an image</h2>
+        <p class="mb-2 text-purple-500">This is a little bit better of a card!</p>
+
+        <a href="#" class="text-sm text-purple-700 underline hover:text-purple-600">Read More 👉</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- horizontal card -->
+  <div class="p-20 bg-green-200">
+    <h3 class="mb-4 font-bold text-green-600">3. Horizontal &amp; Responsive Card</h3>
+
+    <div class="bg-white rounded-lg shadow-2xl md:flex">
+      <img src="https://images.unsplash.com/photo-1596806970810-8734072b5d4d" alt="Night Sky"
+        class="rounded-t-lg md:w-1/3 lg:w-1/5 md:rounded-t-none md:rounded-l-lg">
+
+      <div class="p-6">
+        <h2 class="mb-2 text-xl font-bold text-orange-700 md:text-3xl lg:text-4xl">Horizontal Card</h2>
+        <p class="text-orange-600 lg:text-xl">Look at me go sideways!</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
